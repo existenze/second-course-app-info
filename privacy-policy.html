@@ -33,100 +33,97 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="last-updated">Last Updated: October 28, 2025</p>
+    <p class="last-updated">Last Updated: October 2, 2026</p>
 
     <h2>Introduction</h2>
-    <p>Second Course ("we", "us", or "our") operates the Second Course mobile application ("Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
-    
-    <p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy.</p>
+    <p>Second Course ("we", "us", or "our") operates the Second Course mobile application ("Service"), which connects college students with leftover food from campus events, dining services, and organizations. This page explains what personal data we collect, how we use and share it, and the choices you have.</p>
+
+    <p>By using the Service, you agree to the collection and use of information in accordance with this policy.</p>
 
     <h2>Information We Collect</h2>
-    
-    <h3>Personal Information</h3>
-    <p>When you register for an account with Second Course, we collect:</p>
+
+    <h3>Account Information</h3>
+    <p>When you create an account, we collect:</p>
     <ul>
-        <li><strong>Email Address:</strong> Your San Diego State University (SDSU) email address (@sdsu.edu) for account creation and authentication</li>
-        <li><strong>Display Name:</strong> The name you provide for your profile</li>
-        <li><strong>Role:</strong> Whether you are using the app as a "Student" or "Poster"</li>
-        <li><strong>Profile Photo:</strong> If you choose to add a photo via Google Sign-In</li>
+        <li><strong>Email Address:</strong> Used to create, verify, and sign in to your account. Student accounts require a verified email address from a supported university (currently San Diego State University, UC San Diego, and Southwestern College).</li>
+        <li><strong>Display Name:</strong> The name you provide for your profile.</li>
+        <li><strong>Campus:</strong> The university your account belongs to.</li>
+        <li><strong>Role:</strong> Whether you use the app as a Student, a Poster (an organization or individual sharing food), or both.</li>
+        <li><strong>Profile Photo:</strong> Only if you sign in with Google, where Google Sign-In is available.</li>
+    </ul>
+
+    <h3>Organization Information</h3>
+    <p>If you register to post food on behalf of an organization, we also collect:</p>
+    <ul>
+        <li>Your organization's name, description, type, and approximate member count</li>
+        <li>An optional photo you provide as proof of your organization</li>
     </ul>
 
     <h3>Content You Create</h3>
-    <p>When you use Second Course, we collect:</p>
     <ul>
-        <li><strong>Food Posts:</strong> Information you provide when creating posts, including descriptions, photos, availability times, and portion capacity</li>
-        <li><strong>Claims:</strong> Records of food portions you claim or that are claimed on your posts</li>
+        <li><strong>Food Posts:</strong> Titles, descriptions, photos, pickup location, building and room, availability times, portion counts, tags, and allergen or dietary information.</li>
+        <li><strong>Claims:</strong> Records of food portions you claim, or that are claimed on your posts.</li>
+        <li><strong>Chat Messages:</strong> Messages you send in a food post's chat.</li>
     </ul>
 
-    <h3>Device Information</h3>
-    <p>We collect:</p>
+    <h3>Usage and Device Information</h3>
     <ul>
-        <li><strong>Push Notification Tokens:</strong> Device tokens to send you push notifications</li>
-        <li><strong>App Usage Data:</strong> Information about how you use the app (posts viewed, actions taken)</li>
+        <li><strong>Push Notification Tokens:</strong> Device tokens used to send you push notifications.</li>
+        <li><strong>App Activity:</strong> Which posts you view, and when and on which platform (iOS, Android, or web) you use the app.</li>
+        <li><strong>Notification Preferences:</strong> Your choices about push and email notifications.</li>
     </ul>
 
-    <h3>Authentication</h3>
-    <p>You can sign in using:</p>
-    <ul>
-        <li><strong>Email and Password:</strong> Stored securely with Firebase Authentication</li>
-        <li><strong>Google Sign-In:</strong> If you choose this option, we receive your Google account email and profile information</li>
-    </ul>
+    <h3>Location</h3>
+    <p>We do not collect your device's location. The only location information in the Service is the pickup location a poster chooses for a food post.</p>
 
     <h2>How We Use Your Information</h2>
     <p>We use the information we collect to:</p>
     <ul>
-        <li>Provide and maintain our Service</li>
-        <li>Authenticate your account and verify your SDSU email address</li>
-        <li>Display food posts from Posters to Students in your campus community</li>
-        <li>Send you push notifications about new food posts, post claims, and reminders</li>
-        <li>Allow you to customize your notification preferences</li>
-        <li>Process your claims and track post availability</li>
-        <li>Improve and optimize our Service</li>
+        <li>Provide and maintain the Service</li>
+        <li>Create and authenticate your account and verify your university email address</li>
+        <li>Review organization registrations</li>
+        <li>Show food posts from posters to students on the same campus</li>
+        <li>Send push notifications and, if you opt in, email notifications about new food posts, claims, and reminders</li>
+        <li>Process claims and track how many portions remain</li>
+        <li>Measure the Service's impact (such as food claimed) and improve the Service</li>
     </ul>
 
     <h2>Data Storage and Security</h2>
-    <p>Your data is stored securely using:</p>
-    <ul>
-        <li><strong>Firebase Authentication:</strong> For secure user authentication</li>
-        <li><strong>Cloud Firestore:</strong> For storing user profiles, posts, and claims</li>
-        <li><strong>Firebase Storage:</strong> For storing photos you upload</li>
-        <li><strong>Firebase Cloud Functions:</strong> For processing push notifications</li>
-    </ul>
-    <p>All data transmission is encrypted using HTTPS. We implement reasonable security measures to protect your information, but no method of transmission over the internet is 100% secure.</p>
+    <p>Your data is stored with Google Firebase (Authentication, Cloud Firestore, Cloud Storage, and Cloud Functions). All data is encrypted in transit using HTTPS. We use reasonable security measures to protect your information, but no method of transmission or storage is 100% secure.</p>
 
     <h2>Who Can See Your Information</h2>
-    
-    <h3>Public Information</h3>
-    <p>The following information is visible to all authenticated users on your campus:</p>
+
+    <h3>Visible to Other Users on Your Campus</h3>
     <ul>
-        <li>Your display name on food posts you create</li>
-        <li>Photos and descriptions of food you post</li>
+        <li>Your display name or organization name on food posts you create</li>
+        <li>Photos, descriptions, and details of food you post</li>
         <li>Post availability and claimed portion counts</li>
+        <li>Messages you send in a post's chat</li>
     </ul>
 
-    <h3>Private Information</h3>
-    <p>The following information is private to your account:</p>
+    <h3>Private to Your Account</h3>
+    <p>The following is visible only to you and to Second Course administrators:</p>
     <ul>
-        <li>Your email address (only you and platform administrators can see this)</li>
-        <li>Your push notification tokens</li>
-        <li>Your notification preferences</li>
-        <li>Your role (Student or Poster)</li>
+        <li>Your email address</li>
+        <li>Your push notification tokens and notification preferences</li>
+        <li>Your role, and your organization registration details</li>
+        <li>Which posts you have viewed</li>
     </ul>
 
-    <h2>Push Notifications</h2>
-    <p>We send push notifications to keep you informed about:</p>
+    <h2>Notifications</h2>
+    <p>We send push notifications about:</p>
     <ul>
-        <li><strong>Students:</strong> New food posts on your campus, reminders before claimed food expires</li>
-        <li><strong>Posters:</strong> When your posts are claimed, when they're halfway full or full, when they expire, and reminders before expiry</li>
+        <li><strong>Students:</strong> New food posts on your campus, and reminders before food you claimed expires</li>
+        <li><strong>Posters:</strong> When your posts are claimed, when they are half full or full, when they expire, and reminders before they expire</li>
     </ul>
-    <p>You can manage your notification preferences in the Profile tab of the app. Notifications require your explicit permission via your device settings.</p>
+    <p>Email notifications about new food posts are sent only if you turn them on. You can change your notification preferences in the Profile tab of the app at any time. Push notifications also require your permission in your device settings.</p>
 
     <h2>Data Sharing</h2>
-    <p>We do not sell, trade, or rent your personal information to third parties. We may share your data only in the following circumstances:</p>
+    <p>We do not sell, trade, or rent your personal information. We share it only:</p>
     <ul>
-        <li><strong>With Other App Users:</strong> Your posts and display name are visible to other SDSU community members using the app</li>
-        <li><strong>With Service Providers:</strong> We use Firebase (Google) for hosting and infrastructure. Their privacy policies apply to the data they process</li>
-        <li><strong>Legal Requirements:</strong> If required by law or legal process</li>
+        <li><strong>With other users:</strong> as described in "Who Can See Your Information" above</li>
+        <li><strong>With service providers</strong> who run the Service on our behalf, listed under "Third-Party Services" below</li>
+        <li><strong>When required by law</strong> or legal process</li>
     </ul>
 
     <h2>Your Rights</h2>
@@ -134,29 +131,29 @@
     <ul>
         <li><strong>Access:</strong> Request a copy of your personal data</li>
         <li><strong>Update:</strong> Update your profile information in the app at any time</li>
-        <li><strong>Delete:</strong> Request deletion of your account and associated data</li>
-        <li><strong>Opt-Out:</strong> Disable push notifications or adjust preferences in the app</li>
+        <li><strong>Delete:</strong> Delete your account and associated data (see below)</li>
+        <li><strong>Opt Out:</strong> Turn off push or email notifications in the app</li>
     </ul>
     <p>To exercise these rights, contact us at <a href="mailto:daniel@secondcourse.co">daniel@secondcourse.co</a>.</p>
 
-    <h2>Account Deletion</h2>
-    <p>You can delete your account directly from within the Second Course app. Go to your Profile tab and tap "Delete Account". You will be asked to enter your password to confirm the deletion. When you delete your account:</p>
+    <h2 id="account-deletion">Account Deletion</h2>
+    <p>You can delete your Second Course account in the app: open the Profile tab, tap "Delete Account", and enter your password to confirm.</p>
+    <p>You can also request deletion without the app by emailing <a href="mailto:daniel@secondcourse.co">daniel@secondcourse.co</a> from the email address on your account. We will delete your account within 30 days and confirm by email.</p>
+    <p>When your account is deleted, we permanently delete:</p>
     <ul>
-        <li>Your profile information will be permanently removed</li>
-        <li>All your posts and associated photos will be permanently deleted</li>
-        <li>All claims you made on posts will be permanently deleted</li>
-        <li>Your email will no longer receive notifications</li>
-        <li>Your push notification tokens will be removed</li>
-        <li>Some information may be retained for legal or legitimate business purposes</li>
+        <li>Your profile and sign-in account</li>
+        <li>Your food posts and their photos</li>
+        <li>Claims you made, and claims on your posts</li>
+        <li>Your organization registration and proof photo</li>
+        <li>Your push notification tokens and notification preferences</li>
     </ul>
-    <p>Alternatively, you can request account deletion by contacting us at <a href="mailto:daniel@secondcourse.co">daniel@secondcourse.co</a>.</p>
+    <p>Messages you sent in post chats and records of which posts you viewed are not removed automatically. To have them deleted as well, email us at the address above. We may also keep information where required for legal or legitimate business purposes.</p>
 
     <h2>Children's Privacy</h2>
-    <p>Second Course requires users to be 13 years or older and to have a valid SDSU email address. We do not knowingly collect personal information from children under 13.</p>
+    <p>The Service is intended for college and university students, staff, and campus organizations. It is not directed to children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, contact us and we will delete it.</p>
 
     <h2>Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
-    <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+    <p>We may update this Privacy Policy from time to time. We will post the new version on this page and update the "Last Updated" date. Changes are effective when they are posted.</p>
 
     <h2>Contact Us</h2>
     <p>If you have any questions about this Privacy Policy, please contact us:</p>
@@ -166,14 +163,15 @@
     </ul>
 
     <h2>Third-Party Services</h2>
-    <p>Our Service uses the following third-party services:</p>
+    <p>The Service uses the following service providers:</p>
     <ul>
-        <li><strong>Firebase (Google):</strong> For authentication, database, storage, and push notifications. You can review Google's privacy policy at <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
-        <li><strong>Expo:</strong> For app development and push notification services. You can review Expo's privacy policy at <a href="https://expo.dev/privacy">https://expo.dev/privacy</a></li>
+        <li><strong>Google Firebase and Google Cloud:</strong> Authentication, database, file storage, and server functions. <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+        <li><strong>Google Maps:</strong> Displaying and choosing pickup locations on a map. <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+        <li><strong>Google Workspace (Gmail):</strong> Sending email notifications if you turn them on. <a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+        <li><strong>Expo:</strong> App updates and delivering push notifications. <a href="https://expo.dev/privacy">Expo Privacy Policy</a></li>
     </ul>
 
     <hr>
-    <p style="text-align: center; color: #666;">© 2025 Second Course. All rights reserved.</p>
+    <p style="text-align: center; color: #666;">© 2026 Second Course. All rights reserved.</p>
 </body>
 </html>
-
